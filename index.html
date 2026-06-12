@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>SHI LEDAN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+
+  <div class="custom-cursor"></div>
+
+  <nav id="navbar">
+    <div class="logo">SHI LEDAN</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <header class="banner">
+   <svg class="hero-ribbon" viewBox="0 0 1440 300" preserveAspectRatio="none">
+   <path fill="#b33c3c" fill-opacity="1" d="M0,96L72,85.3C144,75,288,53,432,64C576,75,720,117,864,128C1008,139,1152,117,1296,96L1440,75L1440,0L1296,0C1152,0,1008,0,864,0C720,0,576,0,432,0C288,0,144,0,72,0L0,0Z"></path>
+  </svg>
+    <h1 class="banner-title">Joy’s Pages </h1>
+    <p>여행 · 사진 · 베이킹</p>
+      <p>저의 개인 웹사이트에 오신 것을 환영합니다</p>
+    </header>
+
+  <section id="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>ABOUT ME</h2>
+      <p>"베이킹과 사진 찍는 걸 좋아하는 학생이에요. 작은 부엌에서 매일 새로운 레시피를 시도하며 빵 굽는 냄새로 하루를 채우는 걸 좋아하고, 카메라로 일상의 작은 순간들을 담는 걸 즐겨요. 앞으로 더 많은 맛있는 빵을 만들고, 더 많은 아름다운 풍경을 사진에 담아내고 싶어요. 이 웹사이트를 통해 제가 좋아하는 것들을 여러분과 공유할 수 있어서 정말 기뻐요."</p>
+    </div>
+    <img src="profile1..jpg" alt="내 사진" class="about-img">
+  </div>
+</section>
+
+
+
+  <section id="projects">
+    <h2>Selected Projects</h2>
+   <div id="project-list">
+  <div class="journey-list">
+    <div class="journey-item">
+      <img class="journey-img" src="images/project001/project1-thumnail.jpg">
+      <div class="journey-text">사진 촬영</div>
+     <button class="detail-btn">상세 보기</button>
+
+    </div>
+
+    <div class="journey-item">
+      <img class="journey-img" src="images/project002/project2-thumnail.jpg">
+      <div class="journey-text">홈베이킹 디저트</div>
+      <button class="detail-btn">상세 보기</button>
+    </div>
+
+    <div class="journey-item">
+      <img class="journey-img" src="images/project003/project3-thumnail.jpg">
+      <div class="journey-text">여행 기록 기기</div>
+      <button class="detail-btn">상세 보기</button>
+    </div>
+
+    <div class="journey-item">
+      <img class="journey-img" src="images/project004/project4-thumnail.jpg">
+      <div class="journey-text">일상 스냅</div>
+      <button class="detail-btn">상세 보기</button>
+    </div>
+
+   </div>
+    </ul>
+  </section>
+
+ <div class="scroll-loader" id="scrollLoader">
+  <span></span><span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span><span></span><span></span>
+</div>
+
+  <footer id="contact">
+    <h2>Let's Work Together</h2>
+    <p>새로운 프로젝트나 협업 문의는 언제나 환영합니다.</p>
+    <a href="mailto:email@university.ac.kr" class="contact-btn">이메일 보내기</a>
+    <p>© 2026. All rights reserved.</p>
+  </footer>
+
+  <a href="#hero" class="back-to-top-btn">⬆ TOP</a>
+
+  
+  <div id="detail-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+   <img id="modal-img" src="" alt="" style="width:520px;height:350px;object-fit:cover;margin:0 auto 20px;display:block;">
+   <img id="modal-img2" src="" alt="" style="width:520px;height:350px;object-fit:cover;margin:0 auto 25px;display:block;">
+ 
+    <h3 id="modal-title"></h3>
+    <p id="modal-desc"></p>
+  </div>
+ </div>
+
+  <script src="script.js"></script>
+</body>
+
